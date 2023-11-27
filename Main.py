@@ -1,3 +1,4 @@
+import os
 class App:
     def __init__(self):
         self.pontuacao = 0
@@ -26,18 +27,21 @@ class App:
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_2()
         else:
             print("Você errou :(")
             print("Um sistema é um grupo de elementos inter-relacionados atuando juntos em direção a uma meta comum, recebendo insumos e produzindo resultados em um processo organizado de transformação.")
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_2()
     def pergunta_2(self):
         print('Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.')
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_3()
         else:
@@ -46,12 +50,14 @@ class App:
                 'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_3()
     def pergunta_3(self):
         print('Dados são sucessões de fatos brutos que não foram organizados, processados, relacionados, avaliados ou interpretados, representando apenas, partes isoladas de eventos, situações ou ocorrências. Constituem as unidades básicas, a partir das quais, informações poderão ser elaboradas ou obtidas (CORTÊZ, 2008).')
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_4()
         else:
@@ -59,6 +65,7 @@ class App:
             print('Dados são sucessões de fatos brutos que não foram organizados, processados, relacionados, avaliados ou interpretados, representando apenas, partes isoladas de eventos, situações ou ocorrências. Constituem as unidades básicas, a partir das quais, informações poderão ser elaboradas ou obtidas (CORTÊZ, 2008).')
 
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_4()
 
     def pergunta_4(self):
@@ -66,12 +73,14 @@ class App:
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_5()
         else:
             print("Você errou :(")
             print('Um banco de dados é uma entidade na qual é possível armazenar dados de maneira estruturada e com a menor redundância possível.')
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_5()
 
     def pergunta_5(self):
@@ -79,6 +88,7 @@ class App:
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_6()
         else:
@@ -87,6 +97,7 @@ class App:
                 'Data warehouse é o conjunto de hardware e software que possibilitam o acesso a dados estratificados e consolidados de forma consistente e rápida, a fim de evitar buscas redundantes e dispersivas pelos diversos repositórios genéricos existentes na organização.')
 
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_6()
 
     def pergunta_6(self):
@@ -94,6 +105,7 @@ class App:
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_7()
         else:
@@ -102,6 +114,7 @@ class App:
                 'Sistemas de nível de conhecimento: Permitem à empresa integrar novos conhecimentos e controlar o fluxo de documentos, informação necessária para criação de novos projetos e geração de documentos oficiais.')
 
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_7()
 
     def pergunta_7(self):
@@ -109,6 +122,7 @@ class App:
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_8()
         else:
@@ -117,6 +131,7 @@ class App:
                 'Sistemas de Automação de Escritório: São sistemas que servem as necessidades de informação ao nível de conhecimento da organização.')
 
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_8()
 
     def pergunta_8(self):
@@ -124,12 +139,14 @@ class App:
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_9()
         else:
             print("Você errou :(")
             print('Sistemas de Suporte Executivo: O SSE não são projetados para resolver problemas específicos, eles fornecem uma generalizada capacidade de computação e telecomunicação que pode ser aplicada a problemas que se alteram.')
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_9()
 
     def pergunta_9(self):
@@ -137,12 +154,14 @@ class App:
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_10()
         else:
             print("Você errou :(")
             print('O Instituto Nacional de Propriedade Intelectual (INPI) é o Órgão brasileiro responsável pelo controle das marcas, patentes, desenho industrial, transferência de tecnologia, indicação geográfica e programas de computador.')
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_10()
 
     def pergunta_10(self):
@@ -150,12 +169,14 @@ class App:
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_11()
         else:
             print("Você errou :(")
             print('Os ERPs são uma plataforma de software desenvolvida para integrar os diversos departamentos de uma empresa, possibilitando a automação e armazenamento de todas as informações de negócios.')
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_11()
 
     def pergunta_11(self):
@@ -163,12 +184,14 @@ class App:
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_12()
         else:
             print("Você errou :(")
             print('Os processos empresariais têm como elementos: custo, prazos, qualidade de produção e satisfação do cliente')
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_12()
 
     def pergunta_12(self):
@@ -176,12 +199,14 @@ class App:
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_13()
         else:
             print("Você errou :(")
             print('Os sistemas de informação podem ajudar a melhorar o relacionamento com clientes por meio da personalização do atendimento, da oferta de serviços mais rápidos e eficientes e da coleta de feedback dos clientes.')
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_13()
 
     def pergunta_13(self):
@@ -189,12 +214,14 @@ class App:
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_14()
         else:
             print("Você errou :(")
             print('Um sistema de informação pode ajudar um hospital a fornecer atendimento médico de qualidade e seguro.')
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_14()
 
     def pergunta_14(self):
@@ -202,12 +229,14 @@ class App:
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_15()
         else:
             print("Você errou :(")
             print('Os sistemas de informação podem ser usados para melhorar a segurança e a privacidade.')
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_15()
 
     def pergunta_15(self):
@@ -215,24 +244,29 @@ class App:
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_16()
         else:
             print("Você errou :(")
             print('Os sistemas de informação podem ser usados para promover a sustentabilidade.')
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_16()
     def pergunta_16(self):
         print('Os sistemas de informação podem ser usados para transformar a maneira como as pessoas trabalham e vivem.')
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_17()
         else:
             print("Você errou :(")
             print('Os sistemas de informação podem ser usados para transformar a maneira como as pessoas trabalham e vivem.')
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
+
             self.pergunta_17()
 
     def pergunta_17(self):
@@ -240,12 +274,14 @@ class App:
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_18()
         else:
             print("Você errou :(")
             print('Os sistemas de informação podem ser usados para coletar, armazenar, processar e distribuir informações.')
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_18()
 
     def pergunta_18(self):
@@ -253,12 +289,14 @@ class App:
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_19()
         else:
             print("Você errou :(")
             print('Um sistema de informação pode ajudar uma organização a gerenciar seu estoque, rastrear suas vendas e cumprir os regulamentos governamentais.')
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_19()
 
 
@@ -267,12 +305,14 @@ class App:
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
+            print('\nPróxima pergunta:\n')
             self.pontuacao += 1
             self.pergunta_20()
         else:
             print("Você errou :(")
             print('Os sistemas de informação podem ser integrados entre diferentes níveis organizacionais.')
             print("Esta frase é verdadeira")
+            print('\nPróxima pergunta:\n')
             self.pergunta_20()
     def pergunta_20(self):
         print('Os sistemas de informação devem ser gerenciados de forma eficaz para garantir seu sucesso.')
@@ -290,8 +330,9 @@ class App:
 
 
     def mostrar_resultado(self):
+        os.system('cls')
         print(
-            f'{self.nome_usuario}, Você acertou {self.pontuacao} perguntas de 20 perguntas!'
+            f'\n{self.nome_usuario}, Você acertou {self.pontuacao} perguntas de 20 perguntas!'
         )
 
 
