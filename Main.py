@@ -105,9 +105,7 @@ class App:
             self.pergunta_7()
 
     def pergunta_7(self):
-        print(
-            'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
-        )
+        print('Sistemas de Automação de Escritório: São sistemas que servem as necessidades de informação ao nível de conhecimento da organização.')
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
@@ -116,8 +114,8 @@ class App:
         else:
             print("Você errou :(")
             print(
-                'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
-            )
+                'Sistemas de Automação de Escritório: São sistemas que servem as necessidades de informação ao nível de conhecimento da organização.')
+
             print("Esta frase é verdadeira")
             self.pergunta_8()
 
