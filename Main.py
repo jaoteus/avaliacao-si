@@ -12,12 +12,12 @@ class App:
             else:
                 self.autenticado = True
                 print(f"Bem-Vindo ao jogo, {self.nome_usuario}")
+        self.regras()
     def regras(self):
         print(
-            f''
-
-
-
+            f'{self.nome_usuario}, estas são as regras de como jogar:\n'
+            f'O jogo é composto por 20 perguntas, em cada pergunta você terá que escolher Verdadeiro (v) ou Falso (F)\n'
+            f'Se você acertar, ganhará um ponto, se errar, não ganhará nada.\n'
         )
 
 
