@@ -1,10 +1,24 @@
 class App:
     def __init__(self):
         self.pontuacao = 0
-        self.regras()
+        self.descobrir_nome()
 
+    def descobrir_nome(self):
+        self.autenticado = None
+        while self.autenticado == None:
+            self.nome_usuario = input("Digite seu nome: ")
+            if '1' in self.nome_usuario or '2' in self.nome_usuario or '3' in self.nome_usuario or '4' in self.nome_usuario or '5' in self.nome_usuario or '6' in self.nome_usuario or '7' in self.nome_usuario or '8' in self.nome_usuario or '9' in self.nome_usuario or '0' in self.nome_usuario:
+                print('Seu nome não pode conter número, digite novamente')
+            else:
+                self.autenticado = True
+                print(f"Bem-Vindo ao jogo, {self.nome_usuario}")
     def regras(self):
-        print(f'')
+        print(
+            f''
+
+
+
+        )
 
 
     def pergunta_1(self):
