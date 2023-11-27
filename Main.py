@@ -336,6 +336,7 @@ class App:
         print(
             f'\n{self.nome_usuario}, Você acertou {self.pontuacao} perguntas de 20 perguntas!'
         )
+        self.sair = input("Digite S para sair: ")
 
 
 if __name__ == '__main__':
