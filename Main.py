@@ -25,7 +25,7 @@ class App:
         self.pergunta_1()
 
     def pergunta_1(self):
-        print('Um sistema é um grupo de elementos inter-relacionados atuando juntos em direção a uma meta comum, recebendo insumos e produzindo resultados em um processo organizado de transformação.')
+        print('Um sistema é um grupo de elementos inter-relacionados atuando juntos em direção a uma meta comum, recebendo \n insumos e produzindo resultados em um processo organizado de transformação.')
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
@@ -34,12 +34,12 @@ class App:
             self.pergunta_2()
         else:
             print("Você errou :(")
-            print("Um sistema é um grupo de elementos inter-relacionados atuando juntos em direção a uma meta comum, recebendo insumos e produzindo resultados em um processo organizado de transformação.")
+            print("Um sistema é um grupo de elementos inter-relacionados atuando juntos em direção a uma meta comum, recebendo \ninsumos e produzindo resultados em um processo organizado de transformação.")
             print("Esta frase é verdadeira")
             print('\nPróxima pergunta:\n')
             self.pergunta_2()
     def pergunta_2(self):
-        print('Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.')
+        print('Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação \n de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.')
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
@@ -49,13 +49,13 @@ class App:
         else:
             print("Você errou :(")
             print(
-                'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
+                'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação \n de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
             print('\nPróxima pergunta:\n')
             self.pergunta_3()
     def pergunta_3(self):
-        print('Dados são sucessões de fatos brutos que não foram organizados, processados, relacionados, avaliados ou interpretados, representando apenas, partes isoladas de eventos, situações ou ocorrências. Constituem as unidades básicas, a partir das quais, informações poderão ser elaboradas ou obtidas (CORTÊZ, 2008).')
+        print('Dados são sucessões de fatos brutos que não foram organizados, processados, relacionados, avaliados ou interpretados, \n representando apenas, partes isoladas de eventos, situações ou ocorrências. Constituem as unidades básicas, a partir das quais, informações poderão ser elaboradas ou obtidas (CORTÊZ, 2008).')
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
@@ -64,7 +64,7 @@ class App:
             self.pergunta_4()
         else:
             print("Você errou :(")
-            print('Dados são sucessões de fatos brutos que não foram organizados, processados, relacionados, avaliados ou interpretados, representando apenas, partes isoladas de eventos, situações ou ocorrências. Constituem as unidades básicas, a partir das quais, informações poderão ser elaboradas ou obtidas (CORTÊZ, 2008).')
+            print('Dados são sucessões de fatos brutos que não foram organizados, processados, relacionados, avaliados ou interpretados, \n representando apenas, partes isoladas de eventos, situações ou ocorrências. Constituem as unidades básicas, a partir das quais, informações poderão ser elaboradas ou obtidas (CORTÊZ, 2008).')
 
             print("Esta frase é verdadeira")
             print('\nPróxima pergunta:\n')
@@ -86,7 +86,7 @@ class App:
             self.pergunta_5()
 
     def pergunta_5(self):
-        print('Data warehouse é o conjunto de hardware e software que possibilitam o acesso a dados estratificados e consolidados de forma consistente e rápida, a fim de evitar buscas redundantes e dispersivas pelos diversos repositórios genéricos existentes na organização.')
+        print('Data warehouse é o conjunto de hardware e software que possibilitam o acesso a dados estratificados e consolidados de \n forma consistente e rápida, a fim de evitar buscas redundantes e dispersivas pelos diversos repositórios genéricos existentes na organização.')
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
@@ -96,14 +96,14 @@ class App:
         else:
             print("Você errou :(")
             print(
-                'Data warehouse é o conjunto de hardware e software que possibilitam o acesso a dados estratificados e consolidados de forma consistente e rápida, a fim de evitar buscas redundantes e dispersivas pelos diversos repositórios genéricos existentes na organização.')
+                'Data warehouse é o conjunto de hardware e software que possibilitam o acesso a dados estratificados e consolidados de \n forma consistente e rápida, a fim de evitar buscas redundantes e dispersivas pelos diversos repositórios genéricos existentes na organização.')
 
             print("Esta frase é verdadeira")
             print('\nPróxima pergunta:\n')
             self.pergunta_6()
 
     def pergunta_6(self):
-        print('Sistemas de nível de conhecimento: Permitem à empresa integrar novos conhecimentos e controlar o fluxo de documentos, informação necessária para criação de novos projetos e geração de documentos oficiais.')
+        print('Sistemas de nível de conhecimento: Permitem à empresa integrar novos conhecimentos e controlar o fluxo de documentos, \n informação necessária para criação de novos projetos e geração de documentos oficiais.')
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
@@ -113,7 +113,7 @@ class App:
         else:
             print("Você errou :(")
             print(
-                'Sistemas de nível de conhecimento: Permitem à empresa integrar novos conhecimentos e controlar o fluxo de documentos, informação necessária para criação de novos projetos e geração de documentos oficiais.')
+                'Sistemas de nível de conhecimento: Permitem à empresa integrar novos conhecimentos e controlar o fluxo de documentos, \n informação necessária para criação de novos projetos e geração de documentos oficiais.')
 
             print("Esta frase é verdadeira")
             print('\nPróxima pergunta:\n')
@@ -137,7 +137,7 @@ class App:
             self.pergunta_8()
 
     def pergunta_8(self):
-        print('Sistemas de Suporte Executivo: O SSE não são projetados para resolver problemas específicos, eles fornecem uma generalizada capacidade de computação e telecomunicação que pode ser aplicada a problemas que se alteram.')
+        print('Sistemas de Suporte Executivo: O SSE não são projetados para resolver problemas específicos, eles fornecem uma generalizada \n capacidade de computação e telecomunicação que pode ser aplicada a problemas que se alteram.')
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
@@ -146,13 +146,13 @@ class App:
             self.pergunta_9()
         else:
             print("Você errou :(")
-            print('Sistemas de Suporte Executivo: O SSE não são projetados para resolver problemas específicos, eles fornecem uma generalizada capacidade de computação e telecomunicação que pode ser aplicada a problemas que se alteram.')
+            print('Sistemas de Suporte Executivo: O SSE não são projetados para resolver problemas específicos, eles fornecem uma generalizada \n capacidade de computação e telecomunicação que pode ser aplicada a problemas que se alteram.')
             print("Esta frase é verdadeira")
             print('\nPróxima pergunta:\n')
             self.pergunta_9()
 
     def pergunta_9(self):
-        print('O Instituto Nacional de Propriedade Intelectual (INPI) é o Órgão brasileiro responsável pelo controle das marcas, patentes, desenho industrial, transferência de tecnologia, indicação geográfica e programas de computador.')
+        print('O Instituto Nacional de Propriedade Intelectual (INPI) é o Órgão brasileiro responsável pelo controle das marcas, patentes, \n desenho industrial, transferência de tecnologia, indicação geográfica e programas de computador.')
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
@@ -161,13 +161,13 @@ class App:
             self.pergunta_10()
         else:
             print("Você errou :(")
-            print('O Instituto Nacional de Propriedade Intelectual (INPI) é o Órgão brasileiro responsável pelo controle das marcas, patentes, desenho industrial, transferência de tecnologia, indicação geográfica e programas de computador.')
+            print('O Instituto Nacional de Propriedade Intelectual (INPI) é o Órgão brasileiro responsável pelo controle das marcas, patentes, \n desenho industrial, transferência de tecnologia, indicação geográfica e programas de computador.')
             print("Esta frase é verdadeira")
             print('\nPróxima pergunta:\n')
             self.pergunta_10()
 
     def pergunta_10(self):
-        print('Os ERPs são uma plataforma de software desenvolvida para integrar os diversos departamentos de uma empresa, possibilitando a automação e armazenamento de todas as informações de negócios.')
+        print('Os ERPs são uma plataforma de software desenvolvida para integrar os diversos departamentos de uma empresa, possibilitando a \n automação e armazenamento de todas as informações de negócios.')
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
@@ -176,7 +176,7 @@ class App:
             self.pergunta_11()
         else:
             print("Você errou :(")
-            print('Os ERPs são uma plataforma de software desenvolvida para integrar os diversos departamentos de uma empresa, possibilitando a automação e armazenamento de todas as informações de negócios.')
+            print('Os ERPs são uma plataforma de software desenvolvida para integrar os diversos departamentos de uma empresa, possibilitando a \n automação e armazenamento de todas as informações de negócios.')
             print("Esta frase é verdadeira")
             print('\nPróxima pergunta:\n')
             self.pergunta_11()
@@ -197,7 +197,7 @@ class App:
             self.pergunta_12()
 
     def pergunta_12(self):
-        print('Os sistemas de informação podem ajudar a melhorar o relacionamento com clientes por meio da personalização do atendimento, da oferta de serviços mais rápidos e eficientes e da coleta de feedback dos clientes.')
+        print('Os sistemas de informação podem ajudar a melhorar o relacionamento com clientes por meio da personalização do atendimento, da oferta de \n serviços mais rápidos e eficientes e da coleta de feedback dos clientes.')
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
@@ -206,7 +206,7 @@ class App:
             self.pergunta_13()
         else:
             print("Você errou :(")
-            print('Os sistemas de informação podem ajudar a melhorar o relacionamento com clientes por meio da personalização do atendimento, da oferta de serviços mais rápidos e eficientes e da coleta de feedback dos clientes.')
+            print('Os sistemas de informação podem ajudar a melhorar o relacionamento com clientes por meio da personalização do atendimento, \n da oferta de serviços mais rápidos e eficientes e da coleta de feedback dos clientes.')
             print("Esta frase é verdadeira")
             print('\nPróxima pergunta:\n')
             self.pergunta_13()
