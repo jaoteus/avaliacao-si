@@ -120,9 +120,7 @@ class App:
             self.pergunta_8()
 
     def pergunta_8(self):
-        print(
-            'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
-        )
+        print('Sistemas de Suporte Executivo: O SSE não são projetados para resolver problemas específicos, eles fornecem uma generalizada capacidade de computação e telecomunicação que pode ser aplicada a problemas que se alteram.')
         self.resposta = input("Esta frase é verdadeira ou falsa ?")
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
@@ -130,9 +128,7 @@ class App:
             self.pergunta_9()
         else:
             print("Você errou :(")
-            print(
-                'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
-            )
+            print('Sistemas de Suporte Executivo: O SSE não são projetados para resolver problemas específicos, eles fornecem uma generalizada capacidade de computação e telecomunicação que pode ser aplicada a problemas que se alteram.')
             print("Esta frase é verdadeira")
             self.pergunta_9()
 
