@@ -96,14 +96,14 @@ class App:
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
             self.pontuacao += 1
-            self.pergunta_4()
+            self.pergunta_6()
         else:
             print("Você errou :(")
             print(
                 'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
-            self.pergunta_4()
+            self.pergunta_6()
 
     def pergunta_6(self):
         print(
@@ -113,14 +113,14 @@ class App:
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
             self.pontuacao += 1
-            self.pergunta_4()
+            self.pergunta_7()
         else:
             print("Você errou :(")
             print(
                 'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
-            self.pergunta_4()
+            self.pergunta_7()
 
     def pergunta_7(self):
         print(
@@ -130,14 +130,14 @@ class App:
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
             self.pontuacao += 1
-            self.pergunta_4()
+            self.pergunta_8()
         else:
             print("Você errou :(")
             print(
                 'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
-            self.pergunta_4()
+            self.pergunta_8()
 
     def pergunta_8(self):
         print(
@@ -147,14 +147,14 @@ class App:
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
             self.pontuacao += 1
-            self.pergunta_4()
+            self.pergunta_9()
         else:
             print("Você errou :(")
             print(
                 'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
-            self.pergunta_4()
+            self.pergunta_9()
 
     def pergunta_9(self):
         print(
@@ -164,14 +164,14 @@ class App:
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
             self.pontuacao += 1
-            self.pergunta_4()
+            self.pergunta_10()
         else:
             print("Você errou :(")
             print(
                 'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
-            self.pergunta_4()
+            self.pergunta_10()
 
     def pergunta_10(self):
         print(
@@ -181,14 +181,14 @@ class App:
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
             self.pontuacao += 1
-            self.pergunta_4()
+            self.pergunta_11()
         else:
             print("Você errou :(")
             print(
                 'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
-            self.pergunta_4()
+            self.pergunta_11()
 
     def pergunta_11(self):
         print(
@@ -198,14 +198,14 @@ class App:
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
             self.pontuacao += 1
-            self.pergunta_4()
+            self.pergunta_12()
         else:
             print("Você errou :(")
             print(
                 'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
-            self.pergunta_4()
+            self.pergunta_12()
 
     def pergunta_12(self):
         print(
@@ -215,14 +215,14 @@ class App:
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
             self.pontuacao += 1
-            self.pergunta_4()
+            self.pergunta_13()
         else:
             print("Você errou :(")
             print(
                 'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
-            self.pergunta_4()
+            self.pergunta_13()
 
     def pergunta_13(self):
         print(
@@ -232,14 +232,14 @@ class App:
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
             self.pontuacao += 1
-            self.pergunta_4()
+            self.pergunta_14()
         else:
             print("Você errou :(")
             print(
                 'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
-            self.pergunta_4()
+            self.pergunta_14()
 
     def pergunta_14(self):
         print(
@@ -249,14 +249,14 @@ class App:
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
             self.pontuacao += 1
-            self.pergunta_4()
+            self.pergunta_15()
         else:
             print("Você errou :(")
             print(
                 'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
-            self.pergunta_4()
+            self.pergunta_15()
 
     def pergunta_15(self):
         print(
@@ -266,14 +266,14 @@ class App:
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
             self.pontuacao += 1
-            self.pergunta_4()
+            self.pergunta_16()
         else:
             print("Você errou :(")
             print(
                 'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
-            self.pergunta_4()
+            self.pergunta_16()
     def pergunta_16(self):
         print(
             'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
@@ -282,14 +282,14 @@ class App:
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
             self.pontuacao += 1
-            self.pergunta_4()
+            self.pergunta_17()
         else:
             print("Você errou :(")
             print(
                 'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
-            self.pergunta_4()
+            self.pergunta_17()
 
     def pergunta_17(self):
         print(
@@ -299,14 +299,14 @@ class App:
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
             self.pontuacao += 1
-            self.pergunta_4()
+            self.pergunta_18()
         else:
             print("Você errou :(")
             print(
                 'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
-            self.pergunta_4()
+            self.pergunta_18()
 
     def pergunta_18(self):
         print(
@@ -316,14 +316,14 @@ class App:
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
             self.pontuacao += 1
-            self.pergunta_4()
+            self.pergunta_19()
         else:
             print("Você errou :(")
             print(
                 'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
-            self.pergunta_4()
+            self.pergunta_19()
 
 
     def pergunta_19(self):
@@ -334,14 +334,14 @@ class App:
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
             self.pontuacao += 1
-            self.pergunta_4()
+            self.pergunta_20()
         else:
             print("Você errou :(")
             print(
                 'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
-            self.pergunta_4()
+            self.pergunta_20()
     def pergunta_20(self):
         print(
             'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
@@ -350,16 +350,14 @@ class App:
         if self.resposta == 'V' or self.resposta == 'v':
             print("Você acertou!")
             self.pontuacao += 1
-            self.pergunta_4()
+            self.mostrar_resultado()
         else:
             print("Você errou :(")
             print(
                 'Segundo Mattos (2005), um sistema de informação é um sistema especializado no processamento e na comunicação de dados (máquinas) ou de informações (organismos vivos), sendo constituído por um conjunto de módulos (objetos) de comunicação, de controle, de memórias e de processadores, interligados entre si, por meio de uma rede com protocolo comum.'
             )
             print("Esta frase é verdadeira")
-            self.pergunta_4()
-
-
+            self.mostrar_resultado()
 
 
 
