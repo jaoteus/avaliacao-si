@@ -290,7 +290,9 @@ class App:
 
 
     def mostrar_resultado(self):
-        pass
+        print(
+            f'{self.nome_usuario}, Você acertou {self.pontuacao} perguntas de 20 perguntas!'
+        )
 
 
 if __name__ == '__main__':
